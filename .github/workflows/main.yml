@@ -28,7 +28,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.BLOGDOCKERKEY }}
+          password: ${{ secrets.HEDGEDOCKEY }}
 
 
 
