@@ -1,7 +1,7 @@
 {
-  "name": "HedgeDoc",
+  "name": "AdventuresofAliceandBob",
   "version": "1.9.2",
-  "description": "The best platform to write and share markdown.",
+  "description": "Adventures of Alice and Bob",
   "main": "app.js",
   "license": "AGPL-3.0",
   "scripts": {

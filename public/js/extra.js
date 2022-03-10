@@ -115,12 +115,9 @@ function getTitle (view) {
 
 // render title
 export function renderTitle (view) {
-  let title = getTitle(view)
-  if (title) {
-    title += ' - HedgeDoc'
-  } else {
-    title = 'HedgeDoc - Collaborative markdown notes'
-  }
+
+  title = 'Adventures of Alice and Bob'
+  
   return title
 }
 

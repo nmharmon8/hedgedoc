@@ -1,0 +1,13 @@
+FROM node:16.14.0-slim@sha256:3f34fa94510e16bf619fefb53c9c5d2b11ead626863bdb6b26b49d38d1b56db8 AS base
+
+FROM base AS builder
+
+COPY . /hedgedoc
+
+WORKDIR /hedgedoc
+
+RUN apt-get update && apt-get install --no-install-recommends -y git jq ca-certificates
+
+# RUN yarn install --production=false --pure-lockfile
+# RUN yarn run build
+# node app.js
